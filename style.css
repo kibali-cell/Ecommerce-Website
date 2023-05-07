@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.logo{
+    width: 7%;
+    height: 7%;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.admin_image{
+    width: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.name{
+    color: white;
+    text-decoration: none;
+}
+.name:hover{
+    text-decoration: none;
+}
+.cart_img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.pay_img{
+    width: 100%;
+}
+
+.profile_img{
+    width: 90%;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.edit_image{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.product-img{
+    width: 100px;
+    object-fit: contain;
+}
